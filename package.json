@@ -1,9 +1,8 @@
 {
   "name": "hubot-septa",
-  "version": "0.0.1",
+  "version": "0.1.0",
 
   "description": "A hubot script that queries the Southeastern Pennsylvania Transportation Authority (SEPTA) API",
-  "homepage": "",
 
   "keywords": [
     "hubot",
@@ -12,12 +11,12 @@
   ],
 
   "contributors": [
-      "Evan O'Connell <oconn.e@gmail.com> (http://eoconnell.github.io)"
+      "Evan O'Connell <oconn.e@gmail.com> (http://evanoconnell.com)"
   ],
 
   "licenses": [{
     "type": "MIT",
-    "url": "http://github.com/eoconnell/hubot-septa/LICENSE.md"
+    "url": "https://raw.github.com/eoconnell/hubot-septa/master/LICENSE.md"
   }],
 
   "repository": {
@@ -25,18 +24,11 @@
     "url": "https://github.com/eoconnell/hubot-septa.git"
   },
 
-  "main": "./lib/septa.js",
-
   "engines": {
-    "node": ">= 0.8.x",
-    "npm":  ">= 1.1.x"
+    "node": ">= 0.8.x"
   },
 
   "dependencies": {
     "hubot": ">= 2.5.x"
   },
-
-  "devDependencies": {
-    "coffee-script": "1.6.2"
-  }
 }

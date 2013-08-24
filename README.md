@@ -1,16 +1,28 @@
 hubot-septa
 ===========
 
-Allows [Hubot](http://github.com/github/hubot) to give you real-time schedule information for trips on SEPTA's regional rail system.
+Allows [Hubot](http://github.com/github/hubot) to give you real-time information on SEPTA's
+transportation systems.
 
-Install
--------
+Installation
+------------
 
-see https://github.com/github/hubot#external-scripts
+Add hubot-septa as a depencency in your Hubot package.json file:
+
+```
+"hubot-septa": "0.1.x"
+```
+
+Then add `"hubot-septa"` to your external-scripts.json file.
+
+If you don't have an external-scripts.json file, create a new file in your Hubot base dir that
+contains `["hubot-septa"]`.
+
+see https://github.com/github/hubot/blob/master/docs/scripting.md
 
 
 Usage
---------
+-----
 
 Using SEPTA's Next to Arrive API:
 
