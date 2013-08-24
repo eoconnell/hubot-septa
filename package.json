@@ -30,5 +30,5 @@
 
   "dependencies": {
     "hubot": ">= 2.5.x"
-  },
+  }
 }

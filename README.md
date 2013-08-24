@@ -10,7 +10,7 @@ Installation
 Add hubot-septa as a depencency in your Hubot package.json file:
 
 ```
-"hubot-septa": "0.1.x"
+"hubot-septa": "0.1.0"
 ```
 
 Then add `"hubot-septa"` to your external-scripts.json file.
