@@ -1,6 +1,8 @@
 hubot-septa
 ===========
 
+[![Build Status](https://api.travis-ci.org/eoconnell/hubot-septa.svg?branch=master)](https://travis-ci.org/eoconnell/hubot-septa)
+
 Allows [Hubot](http://github.com/github/hubot) to give you real-time information on SEPTA's
 transportation systems.
 
